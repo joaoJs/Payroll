@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollCalculator", "PayrollCalculator\PayrollCalculator.csproj", "{C4474908-50A6-4B57-A1D8-D99356BFC97A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{704471C6-C27F-4F98-B6B6-B0C55A2BD502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{363D7A32-2FD0-44EC-8E7C-6A9010B99ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollTest", "PayrollTest\PayrollTest.csproj", "{48759BB0-5E0A-42E1-B61D-B01E61AC00B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4474908-50A6-4B57-A1D8-D99356BFC97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4474908-50A6-4B57-A1D8-D99356BFC97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4474908-50A6-4B57-A1D8-D99356BFC97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4474908-50A6-4B57-A1D8-D99356BFC97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48759BB0-5E0A-42E1-B61D-B01E61AC00B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48759BB0-5E0A-42E1-B61D-B01E61AC00B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48759BB0-5E0A-42E1-B61D-B01E61AC00B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48759BB0-5E0A-42E1-B61D-B01E61AC00B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48759BB0-5E0A-42E1-B61D-B01E61AC00B4} = {363D7A32-2FD0-44EC-8E7C-6A9010B99ACE}
+		{C4474908-50A6-4B57-A1D8-D99356BFC97A} = {704471C6-C27F-4F98-B6B6-B0C55A2BD502}
+	EndGlobalSection
+EndGlobal
